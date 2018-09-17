@@ -12,7 +12,6 @@ public class Game {
 
         game.add(controller.getView());
 
-
         game.setLocationRelativeTo(null);
         game.setVisible(true);
     }

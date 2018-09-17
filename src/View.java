@@ -33,8 +33,10 @@ public class View extends JPanel {
 
         if (isGameWon) {
             JOptionPane.showMessageDialog(this, "You've won!");
+            controller.resetGame();
         } else if(isGameLost) {
             JOptionPane.showMessageDialog(this, "You've lost :(");
+            controller.resetGame();
         }
     }
 

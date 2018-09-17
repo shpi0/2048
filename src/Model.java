@@ -29,6 +29,10 @@ public class Model {
     }
 
     public Model() {
+        initNewGameModel();
+    }
+
+    public void initNewGameModel() {
         resetGameTiles();
         this.previousStates = new Stack<>();
         this.previousScores = new Stack<>();

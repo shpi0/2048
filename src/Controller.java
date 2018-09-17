@@ -28,6 +28,7 @@ public class Controller extends KeyAdapter {
         view.isGameLost = false;
         view.isGameWon = false;
         model.resetGameTiles();
+        view.repaint();
     }
 
     @Override
